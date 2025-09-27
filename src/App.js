@@ -43,7 +43,7 @@ function App() {
       <div className="product-grid">
         {products.map((product) => (
           <div className = "product-card" key={product.id}>
-            <img src={product.image} className="product-image"/>
+            <img src={product.image} className="product-image" />
             <h3 className="product-title">{product.title}</h3>
             <h2 className="product-price">{product.price}</h2>
             <button className="add-to-cart">Add to cart</button>
